@@ -23,7 +23,7 @@ AR Path="/5C88D9A5/5C87F011" Ref="SW?"  Part="1"
 AR Path="/5C88E481/5C87F011" Ref="SW?"  Part="1" 
 F 0 "SW?" H 2750 1685 50  0000 C CNN
 F 1 "SW_Push" H 2750 1594 50  0000 C CNN
-F 2 "" H 2750 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2750 1600 50  0001 C CNN
 F 3 "~" H 2750 1600 50  0001 C CNN
 	1    2750 1400
 	1    0    0    -1  
