@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:LightningEars-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,180 +14,34 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C844DFB
-P 5600 1100
-F 0 "#PWR?" H 5600 950 50  0001 C CNN
-F 1 "+3V3" H 5600 1300 50  0000 C CNN
-F 2 "" H 5600 1100 50  0001 C CNN
-F 3 "" H 5600 1100 50  0001 C CNN
-	1    5600 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 1100 5600 1200
-Wire Wire Line
-	5600 3250 5600 3200
-Connection ~ 5600 3250
-Wire Wire Line
-	5500 3250 5500 3200
-Wire Wire Line
-	5600 3250 5500 3250
-Wire Wire Line
-	5600 3300 5600 3250
-$Comp
-L power:GND #PWR?
-U 1 1 5C844651
-P 5600 3300
-F 0 "#PWR?" H 5600 3050 50  0001 C CNN
-F 1 "GND" H 5605 3127 50  0000 C CNN
-F 2 "" H 5600 3300 50  0001 C CNN
-F 3 "" H 5600 3300 50  0001 C CNN
-	1    5600 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C8459EA
-P 5800 1100
-F 0 "#PWR?" H 5800 950 50  0001 C CNN
-F 1 "+5V" H 5800 1300 50  0000 C CNN
-F 2 "" H 5800 1100 50  0001 C CNN
-F 3 "" H 5800 1100 50  0001 C CNN
-	1    5800 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1150 5700 1200
-Wire Wire Line
-	6250 2900 6000 2900
-Wire Wire Line
-	6000 2800 6250 2800
-Wire Wire Line
-	6250 2700 6000 2700
-Wire Wire Line
-	6000 2600 6250 2600
-Wire Wire Line
-	6250 2500 6000 2500
-Wire Wire Line
-	6000 2400 6250 2400
-Wire Wire Line
-	6250 2300 6000 2300
-Wire Wire Line
-	6000 2200 6250 2200
-Text Label 6250 2900 2    50   ~ 0
-A7
-Text Label 6250 2800 2    50   ~ 0
-A6
-Text Label 6250 2700 2    50   ~ 0
-A5
-Text Label 6250 2600 2    50   ~ 0
-A4
-Text Label 6250 2500 2    50   ~ 0
-A3
-Text Label 6250 2400 2    50   ~ 0
-A2
-Text Label 6250 2300 2    50   ~ 0
-A1
-Text Label 6250 2200 2    50   ~ 0
-A0
-Text Label 4800 1600 0    50   ~ 0
+Text Label 1900 1600 0    50   ~ 0
 RX
-Text Label 4800 1700 0    50   ~ 0
+Text Label 1900 1700 0    50   ~ 0
 TX
-Text Label 4800 1800 0    50   ~ 0
+Text Label 1900 1800 0    50   ~ 0
 D2
-Text Label 4800 1900 0    50   ~ 0
+Text Label 1900 1900 0    50   ~ 0
 D3
-Text Label 4800 2000 0    50   ~ 0
+Text Label 1900 2000 0    50   ~ 0
 DATA
-Text Label 4800 2100 0    50   ~ 0
+Text Label 1900 2100 0    50   ~ 0
 D5
-Text Label 4800 2200 0    50   ~ 0
+Text Label 1900 2200 0    50   ~ 0
 D6
-Text Label 4800 2300 0    50   ~ 0
+Text Label 1900 2300 0    50   ~ 0
 D7
-Text Label 4800 2400 0    50   ~ 0
+Text Label 1900 2400 0    50   ~ 0
 D8
-Text Label 4800 2500 0    50   ~ 0
+Text Label 1900 2500 0    50   ~ 0
 D9
-Text Label 4800 2600 0    50   ~ 0
+Text Label 1900 2600 0    50   ~ 0
 D10
-Text Label 4800 2700 0    50   ~ 0
+Text Label 1900 2700 0    50   ~ 0
 D11
-Text Label 4800 2800 0    50   ~ 0
+Text Label 1900 2800 0    50   ~ 0
 D12
-Text Label 4800 2900 0    50   ~ 0
+Text Label 1900 2900 0    50   ~ 0
 D13
-Wire Wire Line
-	4800 2900 5000 2900
-Wire Wire Line
-	5000 2800 4800 2800
-Wire Wire Line
-	4800 1600 5000 1600
-Wire Wire Line
-	4800 1700 5000 1700
-Wire Wire Line
-	4800 1800 5000 1800
-Wire Wire Line
-	4800 1900 5000 1900
-Wire Wire Line
-	4800 2000 5000 2000
-Wire Wire Line
-	4800 2100 5000 2100
-Wire Wire Line
-	4800 2200 5000 2200
-Wire Wire Line
-	4800 2300 5000 2300
-Wire Wire Line
-	4800 2400 5000 2400
-Wire Wire Line
-	4800 2500 5000 2500
-Wire Wire Line
-	4800 2600 5000 2600
-Wire Wire Line
-	4800 2700 5000 2700
-$Comp
-L power:VCC #PWR?
-U 1 1 5C8484C2
-P 5400 1100
-F 0 "#PWR?" H 5400 950 50  0001 C CNN
-F 1 "VCC" H 5400 1300 50  0000 C CNN
-F 2 "" H 5400 1100 50  0001 C CNN
-F 3 "" H 5400 1100 50  0001 C CNN
-	1    5400 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 1100 5400 1200
-Wire Wire Line
-	5800 1150 5700 1150
-Wire Wire Line
-	5800 1150 5800 1100
-Text Label 6250 2000 2    50   ~ 0
-AREF
-Wire Wire Line
-	6250 2000 6000 2000
-$Comp
-L MCU_Module:Arduino_Nano_v3.x A?
-U 1 1 5C84346B
-P 5500 2200
-F 0 "A?" H 5150 3150 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 6000 1250 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 5650 1250 50  0001 L CNN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5500 1200 50  0001 C CNN
-	1    5500 2200
-	1    0    0    -1  
-$EndComp
-Text Label 6250 1600 2    50   ~ 0
-RESET
-Text Label 6250 1700 2    50   ~ 0
-RESET
-Wire Wire Line
-	6250 1700 6000 1700
-Wire Wire Line
-	6000 1600 6250 1600
 $Comp
 L Connector:Barrel_Jack_Switch J?
 U 1 1 5C854FE1
@@ -233,4 +88,284 @@ Wire Wire Line
 Wire Wire Line
 	1350 1350 1350 1450
 Connection ~ 1350 1450
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5C882DDD
+P 9000 1550
+F 0 "J?" H 8850 1300 50  0000 C CNN
+F 1 "AudioJack3" H 8982 1784 50  0000 C CNN
+F 2 "" H 9000 1550 50  0001 C CNN
+F 3 "~" H 9000 1550 50  0001 C CNN
+	1    9000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C883268
+P 9250 1700
+F 0 "#PWR?" H 9250 1450 50  0001 C CNN
+F 1 "GND" H 9255 1527 50  0000 C CNN
+F 2 "" H 9250 1700 50  0001 C CNN
+F 3 "" H 9250 1700 50  0001 C CNN
+	1    9250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1700 9250 1650
+Wire Wire Line
+	9250 1650 9200 1650
+Text Label 9450 1550 2    50   ~ 0
+DATA
+Wire Wire Line
+	9450 1550 9200 1550
+$Comp
+L power:+5V #PWR?
+U 1 1 5C885029
+P 9500 1350
+F 0 "#PWR?" H 9500 1200 50  0001 C CNN
+F 1 "+5V" H 9515 1523 50  0000 C CNN
+F 2 "" H 9500 1350 50  0001 C CNN
+F 3 "" H 9500 1350 50  0001 C CNN
+	1    9500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1350 9500 1450
+Wire Wire Line
+	9500 1450 9200 1450
+$Sheet
+S 6600 1150 950  500 
+U 5C87A3E2
+F0 "BUTTON1" 50
+F1 "button.sch" 50
+F2 "+5V" I L 6600 1250 50 
+F3 "OUTPUT" O L 6600 1400 50 
+F4 "GND" I L 6600 1550 50 
+$EndSheet
+$Sheet
+S 6600 2150 950  500 
+U 5C88D9A5
+F0 "BUTTON2" 50
+F1 "button.sch" 50
+F2 "+5V" I L 6600 2250 50 
+F3 "OUTPUT" O L 6600 2400 50 
+F4 "GND" I L 6600 2550 50 
+$EndSheet
+$Sheet
+S 6600 3100 950  500 
+U 5C88E481
+F0 "BUTTON3" 50
+F1 "button.sch" 50
+F2 "+5V" I L 6600 3200 50 
+F3 "OUTPUT" O L 6600 3350 50 
+F4 "GND" I L 6600 3500 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 5C89027A
+P 6500 1100
+F 0 "#PWR?" H 6500 950 50  0001 C CNN
+F 1 "+5V" H 6515 1273 50  0000 C CNN
+F 2 "" H 6500 1100 50  0001 C CNN
+F 3 "" H 6500 1100 50  0001 C CNN
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1100 6500 1250
+Wire Wire Line
+	6500 1250 6600 1250
+Wire Wire Line
+	6500 1250 6500 2250
+Wire Wire Line
+	6500 2250 6600 2250
+Connection ~ 6500 1250
+Wire Wire Line
+	6500 2250 6500 3200
+Wire Wire Line
+	6500 3200 6600 3200
+Connection ~ 6500 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5C8933C5
+P 6400 3750
+F 0 "#PWR?" H 6400 3500 50  0001 C CNN
+F 1 "GND" H 6405 3577 50  0000 C CNN
+F 2 "" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3750 6400 3500
+Wire Wire Line
+	6400 3500 6600 3500
+Wire Wire Line
+	6400 3500 6400 2550
+Wire Wire Line
+	6400 2550 6600 2550
+Connection ~ 6400 3500
+Wire Wire Line
+	6400 2550 6400 1550
+Wire Wire Line
+	6400 1550 6600 1550
+Connection ~ 6400 2550
+Text Label 6000 1400 0    50   ~ 0
+BUTTON1
+Wire Wire Line
+	6000 1400 6600 1400
+Text Label 6000 2400 0    50   ~ 0
+BUTTON2
+Wire Wire Line
+	6000 2400 6600 2400
+Text Label 6000 3350 0    50   ~ 0
+BUTTON3
+Wire Wire Line
+	6000 3350 6600 3350
+Wire Wire Line
+	3100 1600 3500 1600
+Wire Wire Line
+	3500 1700 3100 1700
+Text Label 3500 1700 2    50   ~ 0
+RESET
+Text Label 3500 1600 2    50   ~ 0
+RESET
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A?
+U 1 1 5C84346B
+P 2600 2200
+F 0 "A?" H 2250 3150 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 3100 1250 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 2750 1250 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2600 1200 50  0001 C CNN
+	1    2600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2000 3100 2000
+Text Label 3500 2000 2    50   ~ 0
+AREF
+Wire Wire Line
+	2900 1150 2900 1100
+Wire Wire Line
+	2900 1150 2800 1150
+Wire Wire Line
+	2500 1100 2500 1200
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8484C2
+P 2500 1100
+F 0 "#PWR?" H 2500 950 50  0001 C CNN
+F 1 "VCC" H 2500 1300 50  0000 C CNN
+F 2 "" H 2500 1100 50  0001 C CNN
+F 3 "" H 2500 1100 50  0001 C CNN
+	1    2500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2700 2100 2700
+Wire Wire Line
+	1900 2600 2100 2600
+Wire Wire Line
+	1900 2500 2100 2500
+Wire Wire Line
+	1900 2400 2100 2400
+Wire Wire Line
+	1900 2300 2100 2300
+Wire Wire Line
+	1900 2200 2100 2200
+Wire Wire Line
+	1900 2100 2100 2100
+Wire Wire Line
+	1900 2000 2100 2000
+Wire Wire Line
+	1900 1900 2100 1900
+Wire Wire Line
+	1900 1800 2100 1800
+Wire Wire Line
+	1900 1700 2100 1700
+Wire Wire Line
+	1900 1600 2100 1600
+Wire Wire Line
+	2100 2800 1900 2800
+Wire Wire Line
+	1900 2900 2100 2900
+Text Label 3500 2500 2    50   ~ 0
+BCTRL
+Text Label 3500 2600 2    50   ~ 0
+A4
+Text Label 3500 2700 2    50   ~ 0
+A5
+Text Label 3500 2800 2    50   ~ 0
+A6
+Text Label 3500 2900 2    50   ~ 0
+A7
+Wire Wire Line
+	3100 2200 3500 2200
+Wire Wire Line
+	3500 2300 3100 2300
+Wire Wire Line
+	3100 2400 3500 2400
+Wire Wire Line
+	3500 2500 3100 2500
+Wire Wire Line
+	3100 2600 3500 2600
+Wire Wire Line
+	3500 2700 3100 2700
+Wire Wire Line
+	3100 2800 3500 2800
+Wire Wire Line
+	3500 2900 3100 2900
+Wire Wire Line
+	2800 1150 2800 1200
+$Comp
+L power:+5V #PWR?
+U 1 1 5C8459EA
+P 2900 1100
+F 0 "#PWR?" H 2900 950 50  0001 C CNN
+F 1 "+5V" H 2900 1300 50  0000 C CNN
+F 2 "" H 2900 1100 50  0001 C CNN
+F 3 "" H 2900 1100 50  0001 C CNN
+	1    2900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C844651
+P 2700 3300
+F 0 "#PWR?" H 2700 3050 50  0001 C CNN
+F 1 "GND" H 2705 3127 50  0000 C CNN
+F 2 "" H 2700 3300 50  0001 C CNN
+F 3 "" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3300 2700 3250
+Wire Wire Line
+	2700 3250 2600 3250
+Wire Wire Line
+	2600 3250 2600 3200
+Connection ~ 2700 3250
+Wire Wire Line
+	2700 3250 2700 3200
+Wire Wire Line
+	2700 1100 2700 1200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C844DFB
+P 2700 1100
+F 0 "#PWR?" H 2700 950 50  0001 C CNN
+F 1 "+3V3" H 2700 1300 50  0000 C CNN
+F 2 "" H 2700 1100 50  0001 C CNN
+F 3 "" H 2700 1100 50  0001 C CNN
+	1    2700 1100
+	1    0    0    -1  
+$EndComp
+Text Label 3500 2200 2    50   ~ 0
+BUTTON1
+Text Label 3500 2300 2    50   ~ 0
+BUTTON2
+Text Label 3500 2400 2    50   ~ 0
+BUTTON3
 $EndSCHEMATC
